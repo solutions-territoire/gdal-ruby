@@ -12,3 +12,8 @@ See [gdal-ruby](https://github.com/zhm/gdal-ruby) for more informations
 ```
 bundle add gdal3
 ```
+
+## License
+
+This gem is BSD. The .c and .cpp files in the ext/gdal-ruby directory are from GDAL. For more info,
+See `ext/gdal-ruby/LICENSE` or visit [gdal.org](http://www.gdal.org/).
