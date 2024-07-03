@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
                        'ext/gdal-ruby/ogr/extconf.rb',  'ext/gdal-ruby/osr/extconf.rb']
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "gdal"
+  gem.name          = "gdal3"
   gem.require_paths = ["lib"]
   gem.version       = Gdal::Ruby::VERSION
 
